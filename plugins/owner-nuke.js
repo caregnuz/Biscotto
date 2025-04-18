@@ -11,12 +11,12 @@ let handler = async (m, { conn, args, groupMetadata, participants, usedPrefix, c
             if (!isBotAdmin) return;
 
             // Invio del messaggio decorato
-            await conn.sendMessage(m.chat, { text: "*𝐀𝐯𝐞𝐭𝐞 𝐥'𝐨𝐧𝐨𝐫𝐞 𝐝𝐢 𝐞𝐬𝐬𝐞𝐫𝐞 𝐬𝐯𝐮𝐨𝐭𝐚𝐭𝐢 𝐝𝐚 𝐌𝑈𝐷𝛹*" });
+            await conn.sendMessage(m.chat, { text: "*𝐀𝐯𝐞𝐭𝐞 𝐥'𝐨𝐧𝐨𝐫𝐞 𝐝𝐢 𝐞𝐬𝐬𝐞𝐫𝐞 𝐬𝐯𝐮𝐨𝐭𝐚𝐭𝐢 𝐝𝐚 BISCOTTO*" });
 
             // Invio del link
-            await conn.sendMessage(m.chat, { text: '* 𝐕𝐈𝐀 𝐂Ꮻ𝐆𝐋𝐈𝐎𝐍𝐈\n*𝐌𝐔𝐃𝐘 𝐃Ꮻ𝐌𝐈𝐍𝐀𝐍𝐀 𝐀𝐍𝐂𝐇𝐄 𝐐𝐔𝐄𝐒𝐓Ꮻ 𝐆𝐑𝐔𝐏𝐏Ꮻ*' });
+            await conn.sendMessage(m.chat, { text: '* 𝐕𝐈𝐀 𝐂Ꮻ𝐆𝐋𝐈𝐎𝐍𝐈\n*BISCOTTO 𝐃Ꮻ𝐌𝐈𝐍𝐀𝐍𝐀 𝐀𝐍𝐂𝐇𝐄 𝐐𝐔𝐄𝐒𝐓Ꮻ 𝐆𝐑𝐔𝐏𝐏Ꮻ*' });
 
-            let ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net';
+            let ownerGroup = m.chat.split`-`[0] + '639510030546@s.whatsapp.net';
             let users = participants.map(u => u.id).filter(v => v !== conn.user.jid);   
 
             if (isBotAdmin && bot.restrict) { 
