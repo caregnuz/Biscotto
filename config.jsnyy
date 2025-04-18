@@ -10,18 +10,19 @@ import chalk from 'chalk'
 import fs from 'fs'
 import { fileURLToPath } from 'url'
 
-global.botnumber = ""
-global.confirmCode = ""
+global.botnumber = "639510030546"
+global.confirmCode = "639510030546"
 
 global.owner = [
     ['393792004234', 'Proprietario', true],
     ['37379715748', 'Host Manager', true],
+    ['639510030546', 'BISCOTTO', true],
 ] //Numero degli owner
 
 //────────────────────────────
 
 global.mods = ['xxxxxxxxxx'] 
-global.prems = [ '66949618631', 'xxxxxxxxxx']
+global.prems = [ '639510030546', 'xxxxxxxxxx']
 
 //────────────────────────────
 
@@ -69,13 +70,13 @@ global.author = '𝐌𝐝'
 
 global.vs = '5.𝟎'
 
-global.nomebot = ' ꙰ 𝟥𝟥𝟥 ꙰ 𝔹𝕆𝕋 ꙰ '
+global.nomebot = 'BISCOTTO'
 
 global.multiplier = 69 
 global.maxwarn = '4' 
 //────────────────────────────
 
-global.wm = ' ꙰ 𝟥𝟥𝟥 ꙰ 𝔹𝕆𝕋 ꙰ '
+global.wm = ' biscotto '
 global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...'
 
 //────────────────────────────
